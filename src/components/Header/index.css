@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(92, 94, 110);
+  text-transform: uppercase;
+}
+
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  margin-left: 5px !important;
+}
+
+.date-container * {
+  margin: 0;
+}
+
+.date-container h2:not(.date h2) {
+  font-size: 50px;
+}
+
+.date * {
+  font-size: 20px;
+}

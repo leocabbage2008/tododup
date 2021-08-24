@@ -1,0 +1,13 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.todo:hover {
+  cursor: pointer;
+}
+.done {
+  color: rgb(160, 170, 174);
+  text-decoration: line-through;
+}
